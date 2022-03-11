@@ -1,0 +1,104 @@
+body {
+  background-color: #67728b;
+}
+h1 {
+  color: white;
+  font-family: Verdana;
+  margin-left: 30px;
+  margin-top: 50px;
+  float: left;
+}
+h2 {
+  color: white;
+  font-family: Verdana;
+  float: right;
+  margin-top: 50px;
+  margin-right: 160px;
+}
+#instruction {
+  float: left;
+  color: white;
+  font-family: Verdana;
+  margin-top: 110px;
+  margin-left: -560px;
+}
+#difficulty {
+  float: right;
+  margin-right: -120px;
+  font-size: 50px;
+  font-family: impact;
+  margin-top: 120px;
+  color: #effe00;
+}
+#startButton {
+  width: 55px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-left: -565px;
+}
+#patternDecreaser {
+  background-image: url(https://cdn.glitch.global/087fd7a0-f5c4-4eb5-a759-26611465694a/MinusButton.png?v=1647034415542);
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+  height: 55px;
+  width: 55px;
+  margin-right: -50px;
+  margin-top: 200px;
+}
+#patternIncreaser {
+  background-image: url(https://cdn.glitch.global/087fd7a0-f5c4-4eb5-a759-26611465694a/PlusButton.png?v=1647034418846);
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+  height: 55px;
+  width: 55px;
+  margin-top: 200px;
+  margin-right: -210px;
+}
+#green {
+  background-color: #7de274;
+  margin-top: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+#blue {
+  background-color: #83c9f8;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+#red {
+  background-color: #f79c9c;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+#yellow {
+  background-color: #f6f79c;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+#shapeChanger {
+  margin-left: 50px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bolder;
+}
+#colorChanger {
+  margin-left: 50px;
+  height: 70px;
+  width: 70px;
+  background-image: url(https://cdn.glitch.global/087fd7a0-f5c4-4eb5-a759-26611465694a/rainbow.png?v=1647034367488);
+  background-size: 70px;
+  background-color: transparent;
+  color: black;
+  font-weight: bolder;
+}
