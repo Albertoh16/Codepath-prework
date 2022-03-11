@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Codepath Pre-Work Memory Game</title>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    <h2>Pattern Length:</h2>
+    <p id="instruction">Repeat the pattern back to win the game!</p>
+    <p id="difficulty">8</p>
+    <br />
+    <button id="startButton" onclick="start()">Start</button>
+    <button id="shapeChanger" onclick="changeShape()">Change Shape!</button>
+    <button id="colorChanger" onclick="changeColor()">Change Colors!</button>
+    <button id="patternIncreaser" onclick="increasePattern()"></button>
+    <button id="patternDecreaser" onclick="decreasePattern()"></button>
+    <br />
+    <button
+      id="green"
+      onmousedown="greenButtonDown()"
+      onmouseup="greenButtonUp()"
+    ></button>
+    <button
+      id="blue"
+      onmousedown="blueButtonDown()"
+      onmouseup="blueButtonUp()"
+    ></button>
+    <button
+      id="red"
+      onmousedown="redButtonDown()"
+      onmouseup="redButtonUp()"
+    ></button>
+    <button
+      id="yellow"
+      onmousedown="yellowButtonDown()"
+      onmouseup="yellowButtonUp()"
+    ></button>
+    <script src="script.js"></script>
+  </body>
+</html>
