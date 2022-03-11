@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Identifies the character set for this document-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Allows the page to appear correct on all devices-->
+    <meta
+      name="description"
+      content="A memory game where the user must repeat a given pattern to win."
+    />
+    <link rel="shortcut icon" href="#" />
+    <title>Codepath Pre-Work Game</title>
+    <style>
+      body {
+        background-color: #67728b;
+      }
+      h1 {
+        color: white;
+        font-family: Verdana;
+        margin-left: 30px;
+        margin-top: 50px;
+        float: left;
+      }
+      h2 {
+        color: white;
+        font-family: Verdana;
+        float: right;
+        margin-top: 50px;
+        margin-right: 160px;
+      }
+      #instruction {
+        float: left;
+        color: white;
+        font-family: Verdana;
+        margin-top: 110px;
+        margin-left: -560px;
+      }
+      #difficulty {
+        float: right;
+        margin-right: -120px;
+        font-size: 50px;
+        font-family: impact;
+        margin-top: 120px;
+        color: #effe00;
+      }
+      #startButton {
+        width: 55px;
+        height: 40px;
+        border-radius: 8px;
+        margin-top: 150px;
+        margin-left: -565px;
+      }
+      #patternDecreaser {
+        background-image: url(MinusButton.PNG);
+        float: right;
+        background-color: transparent;
+        border-color: transparent;
+        height: 55px;
+        width: 55px;
+        margin-right: -50px;
+        margin-top: 200px;
+      }
+      #patternIncreaser {
+        background-image: url(PlusButton.PNG);
+        float: right;
+        background-color: transparent;
+        border-color: transparent;
+        height: 55px;
+        width: 55px;
+        margin-top: 200px;
+        margin-right: -210px;
+      }
+      #green {
+        background-color: #7de274;
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        margin-left: 30px;
+      }
+      #blue {
+        background-color: #83c9f8;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+      }
+      #red {
+        background-color: #f79c9c;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+      }
+      #yellow {
+        background-color: #f6f79c;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+      }
+      #shapeChanger {
+        margin-left: 50px;
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bolder;
+      }
+      #colorChanger {
+        margin-left: 50px;
+        height: 70px;
+        width: 70px;
+        background-image: url(rainbow.PNG);
+        background-size: 70px;
+        background-color: transparent;
+        color: black;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    <h2>Pattern Length:</h2>
+    <p id="instruction">Repeat the pattern back to win the game!</p>
+    <p id="difficulty">8</p>
+    <br />
+    <button id="startButton" onclick="start()">Start</button>
+    <button id="shapeChanger" onclick="changeShape()">Change Shape!</button>
+    <button id="colorChanger" onclick="changeColor()">Change Colors!</button>
+    <button id="patternIncreaser" onclick="increasePattern()"></button>
+    <button id="patternDecreaser" onclick="decreasePattern()"></button>
+    <br />
+    <button
+      id="green"
+      onmousedown="greenButtonDown()"
+      onmouseup="greenButtonUp()"
+    ></button>
+    <button
+      id="blue"
+      onmousedown="blueButtonDown()"
+      onmouseup="blueButtonUp()"
+    ></button>
+    <button
+      id="red"
+      onmousedown="redButtonDown()"
+      onmouseup="redButtonUp()"
+    ></button>
+    <button
+      id="yellow"
+      onmousedown="yellowButtonDown()"
+      onmouseup="yellowButtonUp()"
+    ></button>
+    <script src="game.js"></script>
+  </body>
+</html>
