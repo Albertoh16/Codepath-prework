@@ -47,7 +47,34 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+Coding with Mosh. “HTML Tutorial for Beginners: HTML Crash Course.” Youtube, 11 Jan. 2021, https://www.youtube.com/watch?v=qz0aGYrrlhU. 
+
+Wood, Adam, and Adam is a technical writer who specializes in developer documentation and tutorials. “Creating a Button with the HTML Button Element: Here's How ".” Creating A Button With The HTML Button Element: Here's How ", 22 Dec. 2019, https://html.com/tags/button/#:~:text=The%20element%20is%20used,the%20button%20with%20a%20form.
+
+“How to Move a Form Button Left or Right Using CSS.” Marketing Nation, 30 Dec. 2014, https://nation.marketo.com/t5/knowledgebase/how-to-move-a-form-button-left-or-right-using-css/ta-p/248907#:~:text=Add%20css%20style%20using%20adding,in%20a%20custom%20html%20block.  
+
+“How to - Round Buttons.” How To Create Round Buttons, https://www.w3schools.com/howto/howto_css_round_buttons.asp. 
+
+Tommy KTommy K 1, et al. “Change Color of Button When Clicked.” Stack Overflow, 1 Jan. 1963, https://stackoverflow.com/questions/28530641/change-color-of-button-when-clicked. 
+
+“Math.random() - Javascript: MDN.” JavaScript | MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random. 
+
+“How to Create Button with Line Breaks.” W3docs, https://www.w3docs.com/snippets/html/button-with-line-breaks.html. 
+
+CSS Backgrounds, https://www.w3schools.com/css/css_background.asp. 
+
+The Net Ninja. “JavaScript Tutorial for Beginners #40 - Youtube.” Youtube, https://www.youtube.com/watch?v=XQEfWd1lh4Q. 
+
+“How to Make Beep Sound in Javascript - Javatpoint.” Www.javatpoint.com, https://www.javatpoint.com/how-to-make-beep-sound-in-javascript. 
+
+Onmousedown Event, https://www.w3schools.com/jsref/event_onmousedown.asp. 
+
+Arribas, Duarte, et al. “Math.random with Decimal Places and Code Errors in Javascript.” Stack Overflow, 1 Apr. 1965, https://stackoverflow.com/questions/44031871/math-random-with-decimal-places-and-code-errors-in-javascript. 
+
+JavaScript Popup Boxes, https://www.w3schools.com/js/js_popup.asp. 
+
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
