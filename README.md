@@ -74,14 +74,23 @@ Arribas, Duarte, et al. “Math.random with Decimal Places and Code Errors in Ja
 
 JavaScript Popup Boxes, https://www.w3schools.com/js/js_popup.asp. 
 
-
-
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
 The biggest challenge I encountered when creating the memory game project was coding the program to show the user the pattern of button presses they need to mimic. For the longest time, I was struggling with the program making the buttons all press at the same time, making it so the user had no clue which buttons came first or how many times they had to be pressed when displaying the pattern. Thankfully, I realized that the problem was that, when using a for loop, javascript does not give the setTimer() function enough time to buffer each button press, therefore, making the error. To fix this, I formed the game() function into a recursive function, which makes the function itself loop and gave the setTimer() function enough time to delay each button press in the preview.  Other than that problem, the only other challenge I faced was learning html, css, and javascript. I used many resources around the web in order to understand the functionalities, keywords, and syntax of each language. I also did not use the given step-by-step guide for this project in order to truly learn from scratch which I believe helped me greatly to understand the three languages.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+- Why is web development one of the biggest demands in the programming market?
+
+- If web development is so sought after in the market, why isn’t it taught more often in computer science curriculums?
+
+- Is it possible to code everything onto one file instead of separating it into three (I.E: .html, .css, .js)?
+
+- Is it possible to use the three languages outside of web development?
+
+- Are there more languages that need to be utilized outside of the three main ones?
+
+- Coding on html and css seems to be very simple, do jobs often demand a person to have a degree on the subject? 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
@@ -89,7 +98,7 @@ If I had more hours on this project, I would have most likely spent my time clea
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+My 5-minute Interview Recording
 
 
 ## License
