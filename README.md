@@ -6,7 +6,7 @@ Submitted by: **Alberto Hernandez**
 
 Time spent: **7** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/lemon-coordinated-hygienic)
+Link to project: https://glitch.com/edit/#!/lemon-coordinated-hygienic
 
 ## Required Functionality
 
